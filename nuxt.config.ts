@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   googleFonts: {
     families: {
-      Inter: "100..700",
+      "JetBrains Mono": "200..700",
     },
   },
 });

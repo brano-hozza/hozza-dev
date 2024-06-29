@@ -4,7 +4,7 @@ html {
 }
 
 * {
-  font-family: "Inter";
+  font-family: "JetBrains Mono";
 }
 
 body {
@@ -12,4 +12,44 @@ body {
   overflow: auto;
   --color-primary: 245 171 0;
   --text-primary: 255 255 255;
+}
+
+h1 {
+  @apply text-6xl font-bold;
+}
+
+h2 {
+  @apply text-4xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h4 {
+  @apply text-xl font-bold;
+}
+
+h5 {
+  @apply text-lg font-bold;
+}
+
+h6 {
+  @apply text-base font-bold;
+}
+
+p {
+  @apply text-base;
+}
+
+a {
+  @apply text-base text-primary;
+}
+
+small {
+  @apply text-sm;
+}
+
+b {
+  @apply font-bold;
 }
