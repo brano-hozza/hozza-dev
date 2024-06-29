@@ -3,7 +3,3 @@
     Hozza 2024
   </div>
 </template>
-
-<script lang="ts" setup></script>
-
-<style></style>

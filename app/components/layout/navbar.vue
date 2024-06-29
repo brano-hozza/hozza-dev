@@ -2,7 +2,14 @@
   <header class="flex w-full justify-between bg-accent p-2">
     <span class="font-mono text-xl">hozza.dev</span>
     <nav class="flex items-center gap-x-4">
-      <nuxt-link v-for="link in LINKS" :to="link.path" :key="link.path">
+      <nuxt-link
+        v-for="link in LINKS"
+        :to="link.path"
+        :key="link.path"
+        :class="{
+          underline: $route.path === link.path,
+        }"
+      >
         {{ link.name }}
       </nuxt-link>
     </nav>

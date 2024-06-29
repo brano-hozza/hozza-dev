@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen w-full flex-col bg-main">
+  <div class="flex min-h-screen w-full flex-col bg-main">
     <layout-navbar />
     <main class="flex h-full w-full flex-col items-center py-4">
       <slot />
@@ -7,7 +7,3 @@
     <layout-footer />
   </div>
 </template>
-
-<script lang="ts" setup></script>
-
-<style></style>
