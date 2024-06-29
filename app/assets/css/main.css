@@ -39,7 +39,7 @@ h6 {
 }
 
 p {
-  @apply text-base;
+  @apply text-justify text-base;
 }
 
 a {

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen w-full bg-main">
+  <div class="flex h-screen w-full flex-col bg-main">
     <layout-navbar />
     <main class="flex h-full w-full flex-col items-center py-4">
       <slot />
